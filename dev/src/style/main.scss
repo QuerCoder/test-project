@@ -1,0 +1,14 @@
+/* Bootstrap */
+@import "../../bower_components/bootstrap/dist/css/bootstrap.css";
+
+/* Global styles */
+@import "base/glob";
+
+/* Layouts */
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/footer";
+
+/* Components */
+@import "components/carousel";
+@import "components/blog";

@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QuerCoder",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-sass": "latest",
+    "gulp-watch": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-uglify": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-rigger": "latest",
+    "gulp-imagemin": "latest",
+    "imagemin-pngquant": "latest",
+    "rimraf": "latest",
+    "browser-sync": "latest"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

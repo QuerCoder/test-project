@@ -1,0 +1,65 @@
+#header {
+	
+	.header-top {
+		min-height: 105px;
+	}
+
+	.b-phone {
+
+		a {
+			color: #1a1a1a;
+			font-size: 24px;
+		}
+
+	}
+
+	.b-navigation {
+		background: #f4f4f4;
+		overflow: hidden;
+
+		#topnav {
+			margin: 7px 0;
+			min-height: 40px;
+		}
+
+		ul.navbar-nav {
+
+			li {
+					
+					a {
+						padding: .66rem;
+						color: #333;
+					}
+
+					&:hover {
+
+						a {
+							color: #00acdd;
+						}
+					}
+
+					&.current-menu-item {
+
+						a {
+							color: #00acdd;
+						}
+					}
+			}
+		}
+
+		form {
+			input {
+				border-radius: 20px;
+				border: none;
+				font-weight: 100;
+				font-size: 16px;
+				min-width: 250px !important;
+
+				&:focus {
+					box-shadow: none;
+				}
+			}
+		}
+	}
+
+}

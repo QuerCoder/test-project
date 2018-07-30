@@ -1,0 +1,25 @@
+body {
+	font: normal 17px Roboto;
+}
+a {
+	transition: all .5s;
+	opacity: 1;
+}
+a:hover {
+	opacity: .8;
+	text-decoration: none;
+}
+
+h4 {
+	font-size: 22px; 
+	margin: 20px 0;
+}
+
+.ttl {
+	font-size: 22px; 
+	margin: 20px 0;
+}
+
+main {
+	margin: 30px 0;
+}

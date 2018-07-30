@@ -1,0 +1,25 @@
+.b-post {
+
+	.b-post__thumbnail {
+		
+		img {
+			border-radius: 5px;
+		}
+	}
+	.b-post__entry {
+
+		a {
+			line-height: 1.4;
+			color: #000;
+		}
+	}
+
+	.b-post__meta {
+		margin-bottom: 10px;
+		font-size: 16px;
+		display: block;
+		line-height: 1;
+		color: #808080;
+	}
+
+}
